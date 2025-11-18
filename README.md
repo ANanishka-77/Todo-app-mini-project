@@ -1,3 +1,4 @@
+<img width="1859" height="820" alt="Screenshot 2025-11-18 224402" src="https://github.com/user-attachments/assets/8720a573-87d6-4509-bc54-4a6fe2401941" />
 
 
 # Todo List App (JavaScript + LocalStorage)
