@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>My Todo App</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+        align-items: center;
+        background-image: linear-gradient(100deg, #575656, #062e3f);
+      }
+      #header {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-size: 50px;
+        text-align: center;
+        padding: 10px;
+        border: 0.5px solid white;
+      }
+      #PaneDiv {
+        border: none;
+        height: auto;
+        width: 25vw;
+        box-shadow: 4px 5px 6px;
+        text-align: center;
+        border: 0.5px solid white;
+      }
+      #todobox {
+        flex: 1;
+        background-color: rgb(30, 28, 28);
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        margin: 20px;
+        border-radius: 15px;
+        border: none;
+      }
+      .todoContainer {
+        display: flex;
+        background-color: lightgrey;
+        justify-content: space-between;
+        margin: 15px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      #cross {
+        background: white;
+        border-radius: 5px;
+        border: 0.5px solid black;
+      }
+      #edit {
+        background: white;
+        border-radius: 5px;
+        border: 0.5px solid black;
+      }
+      #checkBox {
+        transform: scale(1.5);
+        border: 0.5px solid black;
+        border-radius: 5px;
+      }
+      #updateBtn {
+        background-color: #4caf50;
+        margin-top: 20px;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+      }
+
+      #updateBtn:hover {
+        background-color: #66bb6a;
+        color: white;
+        border: none;
+      }
+
+      #todobox:focus {
+        outline: none;
+        border-color: rgb(224, 218, 230);
+        box-shadow: 0 0 5px rgba(222, 212, 221, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
